@@ -21,3 +21,9 @@ h6 {
 p {
   margin: 0;
 }
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 90px;
+
+}
