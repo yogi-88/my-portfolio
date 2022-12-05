@@ -45,12 +45,12 @@ p {
 .nav-links {
   display: flex;
   margin: auto;
-  
-  
-  
   justify-content: space-between;
   align-items: center;
   width: 25%;
+}
+.nav-links a {
+  color: aquamarine;
 }
 
 .avatar {
