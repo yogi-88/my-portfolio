@@ -171,30 +171,50 @@ p {
 
 #project-1 {
   grid-area: surf;
-  background-image: url(../images/02-portfolio-4.jpg);
-  
-  
   border: 4px solid aqua;
+}
+#project-1 img {
+  width: 100%;
+  height:280px;  
 }
 #project-2 {
   grid-area: ledwall;
-  background-image: url(../images/02-portfolio-1.jpg);
+  
   border: 4px solid aqua;
+  
 }
+#project-2 img {
+  width: 100%;
+  height:280px;
+  
+}
+
 #project-3 {
   grid-area: calc;
-  background-image: url(../images/02-portfolio-2.jpg);
   border: 4px solid aqua;
+}
+#project-3 img {
+  width: 100%;
+  height:280px;
+  
 }
 #project-4 {
   grid-area: puzzle;
-  background-image: url(../images/02-portfolio-3.jpg);
   border: 4px solid aqua;
+}
+#project-4 img {
+  width: 100%;
+  height:280px;
+  
 }
 #project-5 {
   grid-area: runbuddy;
-  background-image: url(../images/02-run-buddy.jpg);
   border: 4px solid aqua;
+}
+#project-5 img {
+  width: 100%;
+  height:280px;
+  
 }
 /* End Project list styles  */
 /* Contact list styles  */
