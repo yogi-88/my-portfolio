@@ -79,6 +79,27 @@ p {
 }
 
 /* END Hero banner styles */
+/* About me section styles */
+#about {
+  display: flex;
+  background-color: bisque;
+  height: 250px;
+  align-items: center;
+  justify-content: flex-start;
+}
+#about h2 {
+  margin: 30px;
+  padding: 10px;
+  border-right: 5px solid black;
+}
+.aboutme-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+/* END About me section styles */
 
 
 
@@ -185,20 +206,6 @@ p {
 .contact-me a {
   padding: 20px 40px;
 }
-/* .contact-me {
-  display: flex;
-  
-  height: 20px;
-  margin: 40px;
-  padding: 100px;
-  
-  
-} */
-/* #contact {
-  position: relative;
-  text-align: left;
-  
-} */
 
 /* End contact list styles  */
 /* Media Queries styles  */
