@@ -19,11 +19,9 @@ THEN the user is taken to that deployed application
 WHEN the page is resized or viewed on various screens and devices
 THEN the layout is responsive and adapts to my viewport
 ```
+### Screenshot
 
-
-
-
-#### Screenshot
+![My Portfolio webpage](images/Screenshot%202022-12-06%20at%2022-16-03%20Yogita%20__%20Web%20Developer.png)
 
 
 #### Submission
