@@ -270,15 +270,20 @@ p {
 
 
 
-
-
 /* End Resume section styles  */
 
 /* Media Queries styles  */
-/* @media (max-width: 800px) {
-  .nav-bar
-  justify-content: space;
-} */
+@media screen and (max-width: 768px) {
+  main {
+    max-width: 1200px;
+  }
+  header {
+    flex-direction: column;
+  }
+  
+}
+
+
 /* End Media Queries styles  */
 
 
