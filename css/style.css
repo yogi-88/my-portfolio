@@ -162,7 +162,30 @@ p {
 }
 /* End Project list styles  */
 /* Contact list styles  */
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: bisque;
+  height: 100px;
+  
+}
+#contact h2 {
+  margin: 30px;
+  padding: 10px;
+  border-right: 5px solid black;
+}
 .contact-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+.contact-me a {
+  padding: 20px 40px;
+}
+/* .contact-me {
   display: flex;
   
   height: 20px;
@@ -170,12 +193,12 @@ p {
   padding: 100px;
   
   
-}
-#contact {
+} */
+/* #contact {
   position: relative;
   text-align: left;
   
-}
+} */
 
 /* End contact list styles  */
 /* Media Queries styles  */
