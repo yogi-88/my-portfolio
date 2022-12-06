@@ -111,9 +111,17 @@ p {
   
   
 }
+
 .project {
   position: relative;
   text-align: right;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
   
 }
 .heading{
@@ -163,6 +171,12 @@ p {
   
   
 }
+#contact {
+  position: relative;
+  text-align: left;
+  
+}
+
 /* End contact list styles  */
 /* Media Queries styles  */
 /* @media (max-width: 800px) {
