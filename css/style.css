@@ -104,7 +104,7 @@ p {
 /* END About me section styles */
 
 /*Work section style*/
-#work{
+/* #work{
   display: flex;
   background-color: bisque;
   justify-content: flex-start;
@@ -115,7 +115,7 @@ p {
   margin: 30px;
   padding: 10px;
   border-right: 5px solid black;
-}
+} */
 
 /*End Work section style*/
 
@@ -157,6 +157,7 @@ p {
   cursor: pointer;
   display: grid;
   align-content: end;
+  
   
 }
 .heading{
