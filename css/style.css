@@ -49,9 +49,7 @@ p {
   align-items: center;
   width: 25%;
 }
-.nav-links a {
-  color: aquamarine;
-}
+
 
 .avatar {
   width: 150px;
@@ -62,6 +60,7 @@ p {
 .nav-links a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  color: aquamarine;
 }
 /* End Navigation styles */
 /* Hero banner styles */
@@ -79,8 +78,51 @@ p {
 
 }
 
-/* Hero banner styles */
+/* END Hero banner styles */
 
+/* Grid styles*/
+
+.container {
+  display: grid;
+  background-color: bisque;
+  grid-template-columns: 300px auto;
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+  row-gap: 4rem;
 
   
+  
+
+}
+.item {
+  height: 100px;
+  width: 400px;
+  
+  margin: 3px;
+  padding: 100px;
+  border-right: 4px solid black;
+  margin-top: 40px;
+  
+  
+}
+.about-text {
+  height: 100px;
+  margin: 20px;
+  padding: 100px;
+  
+  
+}
+#contact-links {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45%;
+}
+
+
+
+
+
 
